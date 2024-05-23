@@ -9,6 +9,7 @@ import Masking from './components/Masking'
 import ArrowImage from './components/ArrowImage'
 import ThreeDCard from './components/ThreeDCard'
 import BBeams from './components/BBeams'
+import TypeWriter from "./components/TypeWriter"
 import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
       <Home />
       <Spark />
       <CArd />
+      <TypeWriter />
       <Testimonials />
-      <Masking />
+      {/* <Masking /> */}
       <ArrowImage />
       <ThreeDCard />
       <BBeams />
