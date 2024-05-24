@@ -10,6 +10,7 @@ import ArrowImage from './components/ArrowImage'
 import ThreeDCard from './components/ThreeDCard'
 import BBeams from './components/BBeams'
 import TypeWriter from "./components/TypeWriter"
+import Flip from "./components/Flip"
 import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <CArd />
       <TypeWriter />
       <Testimonials />
+      <Flip />
       {/* <Masking /> */}
       <ArrowImage />
       <ThreeDCard />
